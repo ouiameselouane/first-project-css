@@ -1,0 +1,75 @@
+body{
+    border:4px solid brown;
+    padding: 0%;
+    max-width: 50rem;
+    margin: auto;
+   
+}
+.white-padding{
+background-color: white;
+padding: 30px;
+}
+.gray-padding{
+    background-color: rgb(185, 180, 180);
+    padding: 30px;
+}
+
+#main{
+    
+  background-color: rgb(193, 228, 245);
+  padding-top: 0;
+}
+#main div:nth-child(2) {
+    padding: 0 25px;
+}
+
+header{
+    background-color: rgb(165, 48, 48);
+    color: aliceblue;
+    text-align: center;
+     padding: 5px;
+}
+
+.design {
+    border: 1px solid rgb(12, 13, 14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    padding: 8px;
+    margin: auto;
+}
+.photo{
+    text-align: center;
+    
+}
+#source {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+}
+.one{
+    width: 300px;
+    margin-top: 0%;
+}
+a{
+   color: rgb(114, 103, 103);
+   text-decoration: underline;
+}
+.design img{
+    width: 100%;
+}
+#literature{
+    padding-left: 40px;
+    margin:0%;
+  
+}
+
+#source {
+    background-color: rgb(193, 228, 245);
+    padding: 0 10px;
+    border-left: 25px solid gray;
+    border-right: 25px solid gray;
+}
